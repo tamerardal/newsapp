@@ -2,6 +2,8 @@ import React from 'react';
 import {View, Text, Image} from 'react-native';
 import styles from './NewsCard.style';
 
+// NewsCard adında component oluşturuldu ve news adında parametre verildi.
+
 const NewsCard = ({news}) => {
   return (
     <View style={styles.container}>
